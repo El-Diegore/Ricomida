@@ -20,19 +20,19 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse text-end" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Recetas</a>
+                <a class="nav-link" href="#">Recetas</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Nosotros</a>
+                <a class="nav-link" href="#">Nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Contacto</a>
+                <a class="nav-link" href="#">Contacto</a>
               </li>
              
             </ul>
@@ -41,20 +41,20 @@
       </nav>
    <section class="container my-5 pb-4 border-bottom border-dark border-2">
         <div class="row my-5">
-            <div class="col-12 col-sm-12 col-xl-6 justify-content-sm-center">
-                <img class="float-end float-sm-start" src="./assets/img/principal.jpg" width="80%" alt="pizza1">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 justify-content-sm-center text-center">
+                <img class="w-75 mx-auto float-center float-lg-end" src="./assets/img/principal.jpg" alt="pizza1">
             </div>
-            <div class="col-12 col-sm-12 col-xl-6 align-self-center">
+            <div class="col-12 col-sm-12 colg-lg-6 col-xl-6 align-self-center">
               <div class="border-bottom border-dark border-2 pb-1 my-2">
-                <h1 class="fw-bold text-wrap text-center text-lg-start" style="width: 20rem;"/>
+                <h1 class="fw-bold text-wrap text-center text-md-center text-lg-start" style="width: auto">
                     PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES
                 </h1>
               </div>
 
-                <p>
+                <p class="text-center text-lg-start">
                     110 MIN / 6 A 8 PORCIONES
                 </p>
-                <div class="d-flex">
+                <div class="d-flex justify-content-center justify-content-lg-start">
                     <button id="enviarCorreo" type="button" class="btn btn-outline-secondary me-3 text-dark rounded-0" 
                     data-bs-toggle="tooltip" 
                     data-bs-placement="bottom" 
@@ -126,9 +126,71 @@
             <p>
                 Masa
             </p>
+            
+            <ul class="ps-0">
+              <li>
+                20 gr de levadura seca instantánea
+              </li>
+              <li>
+                1 cucharadita de azúcar
+              </li>
+              <li>
+                500 ml agua tibia
+              </li>
+              <li>
+                100 ml aceite vegetal
+              </li>
+              <li>
+                4 cucharadas de aceite de oliva
+              </li>
+              <li>
+                65 gr harina de maíz fina (chuchoca)
+              </li>
+              <li>
+                2 cucharaditas de sal
+              </li>
+              <li>
+                625 gr harina
+              </li>
+            </ul>
             <p>
-                 20 gr de levadura seca instantánea 1 cucharadita de azúcar 500 ml agua tibia 100 ml aceite vegetal 4 cucharadas de aceite de oliva 65 gr harina de maíz fina (chuchoca) 2 cucharaditas de sal 625 gr harina Salsa 5 cucharadas de aceite de oliva ½ cebolla picada en cubos finos 2 cucharaditas de sal 3 cucharadas de Orégano Gourmet 1 ½ cucharadas de Albahaca Gourmet 2 tarro de tomates en cubos al natural 2 cucharaditas de azúcar Relleno ½ cebolla, en cubos 500 gr hojas de espinacas picadas 400 gr de champiñones, laminados 300 gr de queso mozarella. 4 cucharadas queso parmesano
+              Salsa
             </p>
+            <ul class="ps-0">
+              <li>
+                5 cucharadas de aceite de oliva 
+              </li>
+              <li>
+                ½ cebolla picada en cubos finos 
+              </li>
+              <li>
+                2 cucharaditas de sal 
+              </li>
+              <li>
+                3 cucharadas de Orégano Gourmet 
+              </li>
+              <li>
+                1 ½ cucharadas de Albahaca Gourmet 
+              </li>
+              <li>
+                2 tarro de tomates en cubos al natural 
+              </li>
+              <li>
+                2 cucharaditas de azúcar 
+              </li>
+            </ul>
+            <p>Relleno</p>
+            <ul class="ps-0">
+              <li>½ cebolla, en cubos </li>
+              <li>
+                500 gr hojas de espinacas picadas 
+              </li>
+              <li>400 gr de champiñones, laminados </li>
+              <li>
+                300 gr de queso mozarella.
+              </li>
+              <li>4 cucharadas queso parmesano</li>
+            </ul>
         </div>
         <div class="col-6 text-wrap text-start" style="width: 25rem;">
             <h5 id="preparacion">PREPARACIÓN</h5>
@@ -150,7 +212,7 @@
    </section>
    <section id="recetas" class="container pb-5">
     <h2 class="text-center mb-5">RECETAS RELACIONADAS</h2>
-    <div class="row">
+    <div class="row g-3 ms-5">
         <div class="col">
             <div class="card" style="width: 18rem; height: 22rem;">
                 <img src="./assets/img/recipe-card-1.png" class="card-img-top" alt="...">

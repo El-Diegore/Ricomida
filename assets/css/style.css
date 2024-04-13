@@ -23,4 +23,6 @@ footer, nav{
     --bs-tooltip-bg: var(--bd-violet-bg);
     --bs-tooltip-color: var(--bs-white);
   }
-  
+ul{
+    list-style: none;
+}
