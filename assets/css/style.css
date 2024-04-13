@@ -19,3 +19,8 @@ footer, nav{
 .border-bottom{
     color: #373A3C;
 }
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bd-violet-bg);
+    --bs-tooltip-color: var(--bs-white);
+  }
+  
