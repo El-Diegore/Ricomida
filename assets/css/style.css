@@ -16,8 +16,9 @@ body section{
     text-decoration: underline;
     text-underline-offset: 10px;
 }
-#newsletter{
+.newsletter{
     background-color: #DC3545;
+    height: 400px;
 }
 footer, nav{
     background-color: var(--main-black);
