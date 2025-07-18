@@ -13,12 +13,15 @@ body section{
     font-family: "Lobster", sans-serif;
 }
 .carousel-control-prev-icon,
-.carousel-control-next-icon {
+.carousel-control-next-icon, .carousel-indicators {
     filter: drop-shadow(0 0 3px rgb(0, 0, 0)) invert(50%);
 }
 .carousel-control-prev > .carousel-control-prev-icon, .carousel-control-next > .carousel-control-next-icon {
     width: 2.5rem;
     height: 2.5rem;
+}
+.carousel-indicators{
+   top: 220px;
 }
 .text-underline{
     text-decoration: underline;
